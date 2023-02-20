@@ -3,10 +3,10 @@ package main
 import (
 	"context"
 	"fmt"
-	"go/internal/service"
-	"go/settings"
 	"net/http"
 
+	"api.teamcore/internal/service"
+	"api.teamcore/settings"
 	"go.uber.org/fx"
 )
 

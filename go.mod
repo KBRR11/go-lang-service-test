@@ -1,4 +1,4 @@
-module go
+module api.teamcore
 
 go 1.20
 

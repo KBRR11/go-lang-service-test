@@ -3,12 +3,13 @@ package service
 import (
 	"encoding/json"
 	"fmt"
-	"go/internal/entity"
-	"go/settings"
 	"io/ioutil"
 	"net/http"
 	"strconv"
 	"time"
+
+	"api.teamcore/internal/entity"
+	"api.teamcore/settings"
 )
 
 func GetQuestions(w http.ResponseWriter, r *http.Request, s *settings.Settings) {
